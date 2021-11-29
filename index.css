@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+body {
+    max-width: 520px;
+    margin: 50px auto;
+    height: calc(100% - 100px);
+    position: relative;
+    border: 1px solid #aaa;
+    background-color: #FFF;
+}
+
+main {
+    height: calc(100% - 40px - 1px);
+    overflow: auto;
+
+}
+
+article {
+    margin: 10px;
+}
+
+article label{
+    display: block;
+    margin: 0 3px;
+}
+
+article div {
+    padding: 7px;
+    margin: 3px;
+    border-radius: 3px; 
+    background-color: #e27dff;
+    color: white;
+    display: inline-block;
+}
+
+article.mine {
+    text-align: right;
+}
+
+article.mine div {
+    background-color: #aa544d;
+
+}
+
+footer {
+    width: 100%;
+    padding: 8px;
+    height: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+}
+
+footer input {
+    width: calc(100% - 43px - 10px);
+    box-sizing: border-box;
+}
+
+footer button{
+    width: 43px;
+    height: 24px;
+}
